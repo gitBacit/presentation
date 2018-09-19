@@ -145,8 +145,8 @@ h3:hover{
 
 #kryss1{
 	position: absolute;
-	width: 12px;
-	height: 11px;
+	width: 17px;
+	height: 16px;
 	right: 24px;
 	top: 19px;
 	cursor: pointer;
@@ -179,7 +179,7 @@ h3:hover{
 	height: 80%;
 	left: 5%;
 	top: 0%;
-	/*visibility: collapse;*/
+	visibility: collapse;
 }
 
 #documentspic{
