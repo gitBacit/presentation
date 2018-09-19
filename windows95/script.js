@@ -3,6 +3,7 @@
 	dragElement(document.getElementById("files"));
 	dragElement(document.getElementById("panel"));
 	dragElement(document.getElementById("documents"));
+	dragElement(document.getElementById("about"));
 
 
 function dragElement(elmnt){
@@ -63,6 +64,7 @@ function dragElement(elmnt){
 	
 	document.getElementById("volumebutton").addEventListener("click", openVolume);
 	document.getElementById("kryss").addEventListener("click", closeVolume);
+	document.getElementById("kryss2").addEventListener("click", closeVolume);
 
 	function openVolume(){
 		document.getElementById("panel").style.visibility="visible";	
@@ -73,14 +75,24 @@ function dragElement(elmnt){
 	}
 
 	document.getElementById("files").addEventListener("dblclick", openDocument);
+	document.getElementById("about").addEventListener("dblclick", openAbout);
 	document.getElementById("kryss1").addEventListener("click", closeDocument);
+	document.getElementById("kryss2").addEventListener("click", closeAbout);
 
 	function openDocument(){
 		document.getElementById("documents").style.visibility="visible";	
 	}
 
+	function openAbout(){
+		document.getElementById("aboutus").style.visibility="visible";
+	}
+
 	function closeDocument(){
 		document.getElementById("documents").style.visibility="collapse";
+	}
+
+	function closeAbout(){
+		document.getElementById("aboutus").style.visibility="collapse";
 	}
 
 	document.getElementById("trash").addEventListener("dblclick", openBlue);

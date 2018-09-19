@@ -88,6 +88,14 @@ h3:hover{
 	top: 215px;
 }
 
+#about{
+	position: absolute;
+	width: 50px;
+	height: 60px;
+	left: 15px;
+	top: 315px;
+}
+
 #filespic{
 	width: 100%;
 	height: 90%;
@@ -99,6 +107,13 @@ h3:hover{
 	width: 100%;
 	height: 90%;
 	position: absolute;
+}
+
+#aboutpic{
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	transform: scale(1.0);
 }
 
 #trashpic{
@@ -115,7 +130,7 @@ h3:hover{
 	opacity: 0.8;
 }
 
-#filestag, #comptag, #trashtag{
+#filestag, #comptag, #trashtag, #abouttag{
 	position: absolute;
 	height: 10px;
 	width: 100%;
@@ -144,6 +159,15 @@ h3:hover{
 }
 
 #kryss1{
+	position: absolute;
+	width: 17px;
+	height: 16px;
+	right: 24px;
+	top: 19px;
+	cursor: pointer;
+}
+
+#kryss2{
 	position: absolute;
 	width: 17px;
 	height: 16px;
@@ -187,6 +211,11 @@ h3:hover{
 	width: 100%;
 }
 
+#documentspic2{
+	position: absolute;
+	width: 100%;
+}
+
 #bluescreen{
 	position: absolute;
 	width: 100%;
@@ -195,6 +224,24 @@ h3:hover{
 	top: 0%;
 	background-color: #0301AD;
 	visibility: collapse;
+}
+
+#aboutus{
+	position: absolute;
+	width: 70%;
+	height: 80%;
+	left: 5%;
+	top: 0%;
+	visibility: collapse;
+}
+
+#aboutus2{
+	position: absolute;
+	background-color: white;
+	width: 90%;
+	height: 95%;
+	top: 10%;
+	left: 5%;
 }
 
 #namelist{
