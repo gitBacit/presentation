@@ -138,6 +138,30 @@
 		document.getElementById("bluescreen").style.visibility="visible";
 	}
 
+
+	function move() {
+  		var elem = document.getElementById("bar");   
+  		var width = 0;
+  		var id = setInterval(frame, 0);
+  			function frame() {
+    			if (width >= 100) {
+      				clearInterval(id);
+      				document.getElementById("load").style.visibility="collapse";	
+    		} else {
+      			width = width + 0.1; 
+     			elem.style.width = width + '%'; 
+     			var num = Math.round(width * 100)/100;
+     			elem.innerHTML = num  + '%';
+    		}
+  							}
+					}
+	
+	move();
+	
+
+
+	
+
 	document.getElementById("contactus").addEventListener("dblclick", sendMail)
 
 	function sendMail(){
@@ -145,6 +169,7 @@
 
 
 			window.open('mailto:gitbacit@gmail.com');
+
 
 
 
