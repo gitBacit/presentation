@@ -323,7 +323,40 @@ h3:hover{
 	left: 5%;
 }
 
+#login{
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	top: 38%;
+	left: 30%;
+}
 
+#loginpic{
+	position: absolute;
+	width: 100%;
+	transform: scale(1.2);
+}
 
+#loginbtn{
+	position: absolute;
+	right: 14.9%;
+	top: 37.5%;
+	transform: scale(1.5);
+	cursor: pointer;
+
+}
+
+#logintext{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 18px;
+	color: White;
+}
+
+h2{
+	font-size: 35px;
+	font-family: pixelarial;
+	text-decoration: underline;
+}
 
 
