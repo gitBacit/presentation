@@ -332,7 +332,30 @@ h3:hover{
 	left: 5%;
 }
 
+#mathiasbilde{
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	left: 10px;
+	top: 20px;
+}
 
+#users3{
+	position: absolute;
+	background-color: white;
+	width: 30%;
+	height: 90%;
+	top: 0%;
+	left: 25%;
+}
+
+#torbilde{
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	left: 50px;
+	top: 20px;
+}
 
 
 

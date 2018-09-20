@@ -83,8 +83,7 @@
 	document.getElementById("documents").addEventListener("dblclick", openDocument);
 	document.getElementById("do").addEventListener("dblclick", openDocument);
 	document.getElementById("kryss2").addEventListener("click", closeDocument);
-	//document.getElementById("users2").addEventListener("click", openDocument;
-
+	
 	function openDocument(){
 		document.getElementById("documentsinside").style.visibility="visible";	
 	}
@@ -92,7 +91,6 @@
 	function closeDocument(){
 		document.getElementById("documentsinside").style.visibility="collapse";
 	}
-
 
 
 	document.getElementById("comp").addEventListener("dblclick", openComp);
