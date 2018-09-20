@@ -12,11 +12,6 @@ body{
 	z-index: 2;
 }
 
-h3{
-
-
-}
-
 h3:hover{
 	opacity: 0.5;
 	cursor: pointer;
@@ -64,12 +59,12 @@ h3:hover{
 	border-top: 2px outset white;
 }
 
-#files{
+#documents{
 	position: absolute;
 	width: 50px;
 	height: 60px;
 	left: 15px;
-	top: 125px;
+	top: 215px;
 }
 
 #comp{
@@ -80,57 +75,61 @@ h3:hover{
 	top: 25px;
 }
 
+#users{
+	position: absolute;
+	width: 50px;
+	height: 60px;
+	left: 15px;
+	top: 125px;
+}
+
 #trash{
 	position: absolute;
 	width: 50px;
 	height: 60px;
 	left: 15px;
-	top: 215px;
+	top: 415px;
 }
 
-#about{
-	position: absolute;
-	width: 50px;
-	height: 60px;
-	left: 15px;
-	top: 315px;
-}
-
-#filespic{
+#documentslogo{
 	width: 100%;
 	height: 90%;
 	position: absolute;
 	transform: scale(1.4);
 }
 
-#comppic{
+#userslogo{
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	transform: scale(1.3);
+}
+
+#complogo{
 	width: 100%;
 	height: 90%;
 	position: absolute;
 }
 
-#aboutpic{
-	width: 100%;
-	height: 90%;
-	position: absolute;
-	transform: scale(1.0);
-}
-
-#trashpic{
+#trashlogo{
 	width: 100%;
 	height: 90%;
 	position: absolute;
 }
 
-#trash:hover, #files:hover, #comp:hover, #kryss:hover{
+#trash:hover, #documents:hover, #comp:hover, #kryss:hover, #users:hover , #about:hover{
 	cursor: pointer;
 }
 
-#trash:active, #files:active, #comp:active{
+#trash:active, #documents:active, #comp:active{
 	opacity: 0.8;
 }
 
-#filestag, #comptag, #trashtag, #abouttag{
+#start:active{
+	opacity: 0.3;
+}
+
+#filestag, #comptag, #trashtag, #userstag, #abouttag{
 	position: absolute;
 	height: 10px;
 	width: 100%;
@@ -150,31 +149,6 @@ h3:hover{
 	visibility: collapse;
 }
 
-#kryss{
-	position: absolute;
-	width: 16px;
-	height: 14px;
-	right: 62px;
-	top: 5px;
-}
-
-#kryss1{
-	position: absolute;
-	width: 17px;
-	height: 16px;
-	right: 24px;
-	top: 19px;
-	cursor: pointer;
-}
-
-#kryss2{
-	position: absolute;
-	width: 17px;
-	height: 16px;
-	right: 24px;
-	top: 19px;
-	cursor: pointer;
-}
 
 #volumebutton{
 	position: absolute;
@@ -185,19 +159,8 @@ h3:hover{
 	cursor: pointer;
 }
 
-#menu{
-	position: absolute;
-	width: 18%;
-	height: 50%;
-	bottom: 34px;
-	left: 0%;
-	background-color: #C0C0C0;
-	border: 1px solid black;
-	border-left: 20px solid grey;
-	visibility: collapse;
-}
 
-#documents{
+#compinside{
 	position: absolute;
 	width: 70%;
 	height: 80%;
@@ -206,12 +169,44 @@ h3:hover{
 	visibility: collapse;
 }
 
+#documentsinside{
+	position: absolute;
+	width: 70%;
+	height: 80%;
+	left: 5%;
+	top: 0%;
+	visibility: collapse;
+}
+
+#usersinside{
+	position: absolute;
+	width: 70%;
+	height: 80%;
+	left: 5%;
+	top: 0%;
+	visibility: collapse;
+}
+
+#myComputer{
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	left: 5%;
+	top: 10%;
+	background-color: white;
+}
+
+#userspic{
+	position: absolute;
+	width: 100%;
+}
+
 #documentspic{
 	position: absolute;
 	width: 100%;
 }
 
-#documentspic2{
+#comppic{
 	position: absolute;
 	width: 100%;
 }
@@ -220,10 +215,94 @@ h3:hover{
 	position: absolute;
 	width: 100%;
 	height: 100%;
+	margin: auto;
 	left: 0%;
 	top: 0%;
 	background-color: #0301AD;
 	visibility: collapse;
+}
+
+#bluepic{
+	position: absolute;
+	top: 10%;
+	left: 23%;
+}
+
+#namelist{
+	position: absolute;
+	background-color: white;
+	width: 90%;
+	height: 95%;
+	top: 10%;
+	left: 5%;
+}
+
+
+#kryss{
+	position: absolute;
+	width: 16px;
+	height: 14px;
+	right: 62px;
+	top: 5px;
+}
+
+#kryss1{
+	position: absolute;
+	width: 2%;
+	height: 3%;
+	right: 3%;
+	top: 4%;
+}
+
+#kryss2{
+	position: absolute;
+	width: 12px;
+	height: 11px;
+	right: 24px;
+	top: 19px;
+}
+
+#kryss3{
+	position: absolute;
+	width: 2%;
+	height: 3%;
+	right: 3%;
+	top: 4%;
+}
+
+#kryss:hover, #kryss1:hover, #kryss2:hover, #kryss3:hover{
+	cursor: pointer;
+}
+
+
+#about{
+	position: absolute;
+	width: 50px;
+	height: 60px;
+	left: 15px;
+	top: 315px;
+}
+
+#aboutpic{
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	transform: scale(1.0);
+}
+
+
+#kryss4{
+	position: absolute;
+	width: 17px;
+	height: 16px;
+	right: 24px;
+	top: 19px;
+	cursor: pointer;
+}
+
+#documentspic2{
+	position: absolute;
+	width: 100%;
 }
 
 #aboutus{
@@ -243,19 +322,6 @@ h3:hover{
 	top: 10%;
 	left: 5%;
 }
-
-#namelist{
-	position: absolute;
-	background-color: white;
-	width: 90%;
-	height: 95%;
-	top: 10%;
-	left: 5%;
-}
-
-
-
-
 
 
 

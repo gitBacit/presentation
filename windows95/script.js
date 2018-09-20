@@ -1,12 +1,15 @@
 	dragElement(document.getElementById("comp"));
-	dragElement(document.getElementById("trash"));
-	dragElement(document.getElementById("files"));
-	dragElement(document.getElementById("panel"));
 	dragElement(document.getElementById("documents"));
-	dragElement(document.getElementById("about"));
+	dragElement(document.getElementById("users"));
+	dragElement(document.getElementById("trash"));
+	dragElement(document.getElementById("panel"));
+	dragElement(document.getElementById("compinside"));
+	dragElement(document.getElementById("usersinside"));
+	dragElement(document.getElementById("documentsinside"));
+	dragElement(document.getElementById("aboutus"));
 
 
-function dragElement(elmnt){
+	function dragElement(elmnt){
 	var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
 	if (document.getElementById(elmnt.id + "")) {
 		document.getElementById(elmnt.id + "").onmousedown = dragMouseDown;
@@ -61,10 +64,11 @@ function dragElement(elmnt){
 }
 	
 	startTime();
-	
+
+
+
 	document.getElementById("volumebutton").addEventListener("click", openVolume);
 	document.getElementById("kryss").addEventListener("click", closeVolume);
-	document.getElementById("kryss2").addEventListener("click", closeVolume);
 
 	function openVolume(){
 		document.getElementById("panel").style.visibility="visible";	
@@ -74,33 +78,64 @@ function dragElement(elmnt){
 		document.getElementById("panel").style.visibility="collapse";
 	}
 
-	document.getElementById("files").addEventListener("dblclick", openDocument);
-	document.getElementById("about").addEventListener("dblclick", openAbout);
-	document.getElementById("kryss1").addEventListener("click", closeDocument);
-	document.getElementById("kryss2").addEventListener("click", closeAbout);
+
+
+	document.getElementById("documents").addEventListener("dblclick", openDocument);
+	document.getElementById("do").addEventListener("dblclick", openDocument);
+	document.getElementById("kryss2").addEventListener("click", closeDocument);
 
 	function openDocument(){
-		document.getElementById("documents").style.visibility="visible";	
-	}
-
-	function openAbout(){
-		document.getElementById("aboutus").style.visibility="visible";
+		document.getElementById("documentsinside").style.visibility="visible";	
 	}
 
 	function closeDocument(){
-		document.getElementById("documents").style.visibility="collapse";
+		document.getElementById("documentsinside").style.visibility="collapse";
 	}
 
-	function closeAbout(){
+
+
+	document.getElementById("comp").addEventListener("dblclick", openComp);
+	document.getElementById("kryss1").addEventListener("click", closeComp);
+
+	function openComp(){
+		document.getElementById("compinside").style.visibility="visible";	
+	}
+
+	function closeComp(){
+		document.getElementById("compinside").style.visibility="collapse";
+	}
+
+	document.getElementById("users").addEventListener("dblclick", openUsers);
+	document.getElementById("us").addEventListener("dblclick", openUsers);
+	document.getElementById("kryss3").addEventListener("click", closeUsers);
+
+	function openUsers(){
+		document.getElementById("usersinside").style.visibility="visible";	
+	}
+
+	function closeUsers(){
+		document.getElementById("usersinside").style.visibility="collapse";
+	}
+
+
+  	document.getElementById("about").addEventListener("dblclick", openAbout);
+  	document.getElementById("ab").addEventListener("dblclick", openAbout);
+  	document.getElementById("kryss4").addEventListener("click", closeAbout);
+  	
+  	function openAbout(){
+		document.getElementById("aboutus").style.visibility="visible";
+	}
+  
+  	function closeAbout(){
 		document.getElementById("aboutus").style.visibility="collapse";
 	}
 
-	document.getElementById("trash").addEventListener("dblclick", openBlue);
+
+	document.getElementById("start").addEventListener("click", openBlue);
 
 	function openBlue(){
 		document.getElementById("bluescreen").style.visibility="visible";	
 	}
-
 
 
 
