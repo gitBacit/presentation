@@ -7,6 +7,7 @@
 	dragElement(document.getElementById("usersinside"));
 	dragElement(document.getElementById("documentsinside"));
 	dragElement(document.getElementById("aboutus"));
+	dragElement(document.getElementById("contactus"));
 
 
 	function dragElement(elmnt){
@@ -62,7 +63,7 @@
     	if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     	return i;
 }
-	
+
 	startTime();
 
 
@@ -71,7 +72,7 @@
 	document.getElementById("kryss").addEventListener("click", closeVolume);
 
 	function openVolume(){
-		document.getElementById("panel").style.visibility="visible";	
+		document.getElementById("panel").style.visibility="visible";
 	}
 
 	function closeVolume(){
@@ -85,7 +86,7 @@
 	document.getElementById("kryss2").addEventListener("click", closeDocument);
 
 	function openDocument(){
-		document.getElementById("documentsinside").style.visibility="visible";	
+		document.getElementById("documentsinside").style.visibility="visible";
 	}
 
 	function closeDocument(){
@@ -98,7 +99,7 @@
 	document.getElementById("kryss1").addEventListener("click", closeComp);
 
 	function openComp(){
-		document.getElementById("compinside").style.visibility="visible";	
+		document.getElementById("compinside").style.visibility="visible";
 	}
 
 	function closeComp(){
@@ -110,7 +111,7 @@
 	document.getElementById("kryss3").addEventListener("click", closeUsers);
 
 	function openUsers(){
-		document.getElementById("usersinside").style.visibility="visible";	
+		document.getElementById("usersinside").style.visibility="visible";
 	}
 
 	function closeUsers(){
@@ -121,11 +122,11 @@
   	document.getElementById("about").addEventListener("dblclick", openAbout);
   	document.getElementById("ab").addEventListener("dblclick", openAbout);
   	document.getElementById("kryss4").addEventListener("click", closeAbout);
-  	
+
   	function openAbout(){
 		document.getElementById("aboutus").style.visibility="visible";
 	}
-  
+
   	function closeAbout(){
 		document.getElementById("aboutus").style.visibility="collapse";
 	}
@@ -134,10 +135,19 @@
 	document.getElementById("start").addEventListener("click", openBlue);
 
 	function openBlue(){
-		document.getElementById("bluescreen").style.visibility="visible";	
+		document.getElementById("bluescreen").style.visibility="visible";
 	}
 
+	document.getElementById("contactus").addEventListener("dblclick", sendMail)
+
+	function sendMail(){
 
 
+
+			window.open('mailto:gitbacit@gmail.com');
+
+
+
+}
 
 }
