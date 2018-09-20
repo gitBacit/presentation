@@ -323,7 +323,71 @@ h3:hover{
 	left: 5%;
 }
 
+#load{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	visibility: none;
+}
 
+#windowpic{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#logopic{
+	position: absolute;
+	transform: scale(1);
+	z-index: 4;
+	width: 70%;
+	left: 15%;
+	top: 0%;
+}
+
+#loadpicandbar{
+	position: absolute;
+	width: 40%;
+	height: 70%;
+	top: 15%;
+	left: 30%;
+}
+
+#progress {
+  width: 100%;
+  background-color: #ddd;
+  position: absolute;
+  height: 5%;
+  bottom: 10%;
+  border: 2px solid #ddd;
+}
+
+#bar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  bottom: 0%;
+  background-color: #4CAF50;
+  line-height: 30px;
+  color: white;
+text-align: center;
+}
+
+#namebar{
+	position: absolute;
+	width: 80%;
+	height: 15%;
+	left: 10%;
+	top: 65%;
+	color: black;
+	font-size: relative;
+	text-align: center;
+}
+
+#percent{
+
+}
 
 
 
