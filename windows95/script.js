@@ -8,6 +8,8 @@
 	dragElement(document.getElementById("documentsinside"));
 	dragElement(document.getElementById("aboutus"));
 	dragElement(document.getElementById("contactus"));
+	dragElement(document.getElementById("git"));
+
 
 
 	function dragElement(elmnt){
@@ -163,15 +165,19 @@
 
 	document.getElementById("contactus").addEventListener("dblclick", sendMail)
 
-	function sendMail(){
 
 
-
-			window.open('mailto:gitbacit@gmail.com');
-
+	document.getElementById("git").addEventListener("dblclick", openGit);
 
 
 
 }
-
+function openGit() {
+	var url = "https://github.com/gitBacit/presentation";
+	var win = window.open(url, '_blank');
+	  win.focus();
+	
+}
+function sendMail(){
+	window.open('mailto:gitbacit@gmail.com');
 }
