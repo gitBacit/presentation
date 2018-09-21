@@ -326,10 +326,10 @@ h3:hover{
 #users2{
 	position: absolute;
 	background-color: white;
-	width: 90%;
+	width: 30%;
 	height: 90%;
 	top: 15%;
-	left: 5%;
+	left: 4%;
 }
 
 #mathiasbilde{
@@ -345,8 +345,8 @@ h3:hover{
 	background-color: white;
 	width: 30%;
 	height: 90%;
-	top: 0%;
-	left: 25%;
+	top: 15%;
+	left: 20%;
 }
 
 #torbilde{
@@ -357,5 +357,53 @@ h3:hover{
 	top: 20px;
 }
 
+#users4{
+	position: absolute;
+	background-color: white;
+	width: 30%;
+	height: 90%;
+	top: 15%;
+	left: 36%;
+}
 
+#bragebilde{
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	left: 50px;
+	top: 20px;
+}
 
+#users5{
+	position: absolute;
+	background-color: white;
+	width: 30%;
+	height: 90%;
+	top: 15%;
+	left: 52%;
+}
+
+#jonasbilde{
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	left: 50px;
+	top: 20px;
+}
+
+#users6{
+	position: absolute;
+	background-color: white;
+	width: 25%;
+	height: 90%;
+	top: 15%;
+	left: 68%;
+}
+
+#jorgenbilde{
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	left: 50px;
+	top: 20px;
+}
