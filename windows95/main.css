@@ -5,7 +5,7 @@
 
 
 body{
-	background-color: #159296;
+	background-color: #2A363B;
 	margin: 0;
 	padding: 0;
 	font-family: pixelarial;
@@ -20,8 +20,9 @@ h3:hover{
 #start{
 	position: absolute;
 	height: 30px;
-	bottom: 2%;
-	left: 0.1%;
+	top: 12%;
+	transform: scale(1.4);
+	left: 0.3%;
 }
 
 #start:hover{
@@ -30,12 +31,12 @@ h3:hover{
 
 #clockarea{
 	position: absolute;
-	border-top: 2px outset grey;
-	border-left: 2px outset grey;
+	border-top: 2px outset black;
+	border-left: 2px outset black;
 	border-right: 2px solid white;
 	border-bottom: 2px solid white;
-	width: 100px;
-	height: 26px;
+	width: 104px;
+	height: 34px;
 	bottom: 1px;
 	right: 0.1%;
 	color: black;
@@ -44,7 +45,7 @@ h3:hover{
 
 #clock{
 	position: absolute;
-	top: 6px;
+	top: 8px;
 	left: 45%;
 	font-size: 10px;
 }
@@ -52,7 +53,7 @@ h3:hover{
 #footer{
 	position: absolute;
 	width: 100%;
-	height: 32px;
+	height: 40px;
 	bottom: 0%;
 	left: 0%;
 	background-color: #C0C0C0;
@@ -95,14 +96,14 @@ h3:hover{
 	width: 100%;
 	height: 90%;
 	position: absolute;
-	transform: scale(1.4);
+	transform: scale(1.13);
 }
 
 #userslogo{
 	width: 100%;
 	height: 90%;
 	position: absolute;
-	transform: scale(1.3);
+	transform: scale(1.15);
 }
 
 #complogo{
@@ -115,6 +116,7 @@ h3:hover{
 	width: 100%;
 	height: 90%;
 	position: absolute;
+	transform: scale(1.1);
 }
 
 #trash:hover, #documents:hover, #comp:hover, #kryss:hover, #users:hover , #about:hover, #git:hover, #contactus:hover{
@@ -411,8 +413,8 @@ h3:hover{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-color: white;
-	visibility: none;
+	background-color: #29363b;
+	visibility: collapse;
 }
 
 #windowpic{
@@ -515,9 +517,9 @@ h2{
 }
 
 #contactuspic{
-  width: 103%;
+  width: 100%;
 	height: 90%;
-  transform: scale(1.3);
+  transform: scale(1.13);
 	position: absolute;
 }
 
@@ -530,8 +532,33 @@ h2{
   }
   
   #gitPic{
-	width: 100%;
+	width: 110%;
 	height: 90%;
 	position: absolute;
-	transform: scale(1.0);
+	transform: scale(1.14);
+  }
+
+  #nettleserikon{
+  	transform: scale(1.3);
+  }
+
+  #loginknapp{
+
+  	position: absolute;
+  	background-color: #C0C0C0;
+  	width: 17.5%;
+  	height: 12%;
+  	right: 12.5%;
+  	top: 34%;
+  	font-size: 18px;
+  	border-top: 2px solid white;
+  	border-left: 2px solid white;
+  	border-right: 2px solid black;
+  	border-bottom: 2px solid black;
+  	box-shadow: 0 5px #777;
+  }
+
+  #loginknapp:active{
+  	transform: translateY(3px);
+  	box-shadow: 0 2px #666;
   }

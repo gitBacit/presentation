@@ -6,7 +6,7 @@
 	dragElement(document.getElementById("compinside"));
 	dragElement(document.getElementById("usersinside"));
 	dragElement(document.getElementById("documentsinside"));
-	dragElement(document.getElementById("aboutus"));
+	dragElement(document.getElementById("about"));
 	dragElement(document.getElementById("contactus"));
 	dragElement(document.getElementById("git"));
 
@@ -69,7 +69,7 @@
 	startTime();
 
 
-
+/*
 	document.getElementById("volumebutton").addEventListener("click", openVolume);
 	document.getElementById("kryss").addEventListener("click", closeVolume);
 
@@ -81,7 +81,7 @@
 		document.getElementById("panel").style.visibility="collapse";
 	}
 
-
+*/
 
 	document.getElementById("documents").addEventListener("dblclick", openDocument);
 	document.getElementById("do").addEventListener("dblclick", openDocument);
@@ -149,7 +149,7 @@
       				clearInterval(id);
       				document.getElementById("load").style.visibility="collapse";	
     		} else {
-      			width = width + 0.1; 
+      			width = width + 0.2; 
      			elem.style.width = width + '%'; 
      			var num = Math.round(width * 100)/100;
      			elem.innerHTML = num  + '%';
