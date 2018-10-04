@@ -49,6 +49,7 @@
 		document.onmouseup = null;
 		document.onmousemove = null;
 	}
+}
 
 	function startTime() {
     	var today = new Date();
@@ -171,7 +172,7 @@
 
 
 
-}
+
 function openGit() {
 	var url = "https://github.com/gitBacit/presentation";
 	var win = window.open(url, '_blank');
