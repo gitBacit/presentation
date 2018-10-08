@@ -336,90 +336,7 @@ h3:hover{
 	left: 5%;
 }
 
-#users2{
-	position: absolute;
-	background-color: white;
-	width: 32%;
-	height: 90%;
-	top: 15%;
-	left: 4%;
-}
 
-#mathiasbilde{
-	position: absolute;
-	width: 80px;
-	height: 100px;
-	left: 10px;
-	top: 10px;
-}
-
-#users3{
-	position: absolute;
-	background-color: white;
-	width: 30%;
-	height: 90%;
-	top: 15%;
-	left: 20%;
-}
-
-#torbilde{
-	position: absolute;
-	width: 50px;
-	height: 20px;
-	left: 50px;
-	top: 20px;
-}
-
-#users4{
-	position: absolute;
-	background-color: white;
-	width: 30%;
-	height: 90%;
-	top: 15%;
-	left: 36%;
-}
-
-#bragebilde{
-	position: absolute;
-	width: 50px;
-	height: 20px;
-	left: 50px;
-	top: 20px;
-}
-
-#users5{
-	position: absolute;
-	background-color: white;
-	width: 30%;
-	height: 90%;
-	top: 15%;
-	left: 52%;
-}
-
-#jonasbilde{
-	position: absolute;
-	width: 50px;
-	height: 20px;
-	left: 50px;
-	top: 20px;
-}
-
-#users6{
-	position: absolute;
-	background-color: white;
-	width: 25%;
-	height: 90%;
-	top: 15%;
-	left: 68%;
-}
-
-#jorgenbilde{
-	position: absolute;
-	width: 50px;
-	height: 20px;
-	left: 50px;
-	top: 20px;
-}
 #load{
 	position: absolute;
 	width: 100%;
@@ -554,7 +471,6 @@ h2{
   }
 
   #loginknapp{
-
   	position: absolute;
   	background-color: #C0C0C0;
   	width: 17.5%;
@@ -573,3 +489,68 @@ h2{
   	transform: translateY(3px);
   	box-shadow: 0 2px #666;
   }
+
+  #cv{
+  	position: absolute;
+  	width: 70%;
+  	height: 100%;
+  	left: 30%;
+  }
+
+  #profilenametag{
+  	position: absolute;
+  	width: 30%;
+  	height: 30%;
+  	left: 0%;
+  	bottom: 0%;
+  	font-size: 34px;
+  	text-align: center;
+  }
+ 
+  
+  #mathiasprofilbilde:hover, #torprofilbilde:hover, #brageprofilbilde:hover, #jonasprofilbilde:hover, #jorgenprofilbilde:hover{
+  	opacity: 0.9;
+  	cursor: pointer;
+  }
+
+  #mathiasbilde:hover, #torbilde:hover, #bragebilde:hover, #jonasbilde:hover, #jorgenbilde:hover{
+  	opacity: 0.8;
+  	cursor: pointer;
+  }
+
+
+ .userinf{
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    top: 10%;
+    left: 5%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(auto, auto);
+    grid-column-gap: 12px;
+}
+
+
+.userPic{
+    width: 150px;
+    height: 190px;
+}
+
+.profilepic{
+	position: absolute;
+  	height: 70%;
+  	width: 30%;
+}
+
+.profileinfo{
+	position: absolute;
+ 	background-color: white;
+ 	width: 100%;
+ 	height: 100%;
+ 	left: 0%;
+ 	top: 0%;
+ 	visibility: collapse;
+}
+
