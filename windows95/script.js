@@ -85,7 +85,7 @@
 */
 
 	document.getElementById("documents").addEventListener("dblclick", openDocument);
-	document.getElementById("do").addEventListener("dblclick", openDocument);
+	document.getElementById("do").addEventListener("click", openDocument);
 	document.getElementById("kryss2").addEventListener("click", closeDocument);
 	
 	function openDocument(){
@@ -109,7 +109,7 @@
 	}
 
 	document.getElementById("users").addEventListener("dblclick", openUsers);
-	document.getElementById("us").addEventListener("dblclick", openUsers);
+	document.getElementById("us").addEventListener("click", openUsers);
 	document.getElementById("kryss3").addEventListener("click", closeUsers);
 
 	function openUsers(){
@@ -118,11 +118,15 @@
 
 	function closeUsers(){
 		document.getElementById("usersinside").style.visibility="collapse";
+		closeMathias();
+		closeTor();
+		closeBrage();
+		closeJonas();
+		closeJorgen();
 	}
 
-
   	document.getElementById("about").addEventListener("dblclick", openAbout);
-  	document.getElementById("ab").addEventListener("dblclick", openAbout);
+  	document.getElementById("ab").addEventListener("click", openAbout);
   	document.getElementById("kryss4").addEventListener("click", closeAbout);
 
   	function openAbout(){
@@ -161,12 +165,7 @@
 	move();
 	
 
-
-	
-
 	document.getElementById("contactus").addEventListener("dblclick", sendMail)
-
-
 
 	document.getElementById("git").addEventListener("dblclick", openGit);
 
@@ -177,8 +176,68 @@ function openGit() {
 	var url = "https://github.com/gitBacit/presentation";
 	var win = window.open(url, '_blank');
 	  win.focus();
-	
 }
+
 function sendMail(){
 	window.open('mailto:gitbacit@gmail.com');
 }
+
+document.getElementById("mathiasbilde").addEventListener("click", openMathias);
+document.getElementById("mathiasprofilbilde").addEventListener("click", closeMathias);
+
+function openMathias(){
+	document.getElementById("mathiasinfo").style.visibility="visible";	
+}
+
+function closeMathias(){
+	document.getElementById("mathiasinfo").style.visibility="collapse";
+}
+
+
+
+document.getElementById("torbilde").addEventListener("click", openTor);
+document.getElementById("torprofilbilde").addEventListener("click", closeTor);
+
+function openTor(){
+	document.getElementById("torinfo").style.visibility="visible";	
+}
+
+function closeTor(){
+	document.getElementById("torinfo").style.visibility="collapse";
+}
+
+
+document.getElementById("bragebilde").addEventListener("click", openBrage);
+document.getElementById("brageprofilbilde").addEventListener("click", closeBrage);
+
+function openBrage(){
+	document.getElementById("brageinfo").style.visibility="visible";	
+}
+
+function closeBrage(){
+	document.getElementById("brageinfo").style.visibility="collapse";
+}
+
+
+document.getElementById("jonasbilde").addEventListener("click", openJonas);
+document.getElementById("jonasprofilbilde").addEventListener("click", closeJonas);
+
+function openJonas(){
+	document.getElementById("jonasinfo").style.visibility="visible";	
+}
+
+function closeJonas(){
+	document.getElementById("jonasinfo").style.visibility="collapse";
+}
+
+document.getElementById("jorgenbilde").addEventListener("click", openJorgen);
+document.getElementById("jorgenprofilbilde").addEventListener("click", closeJorgen);
+
+function openJorgen(){
+	document.getElementById("jorgeninfo").style.visibility="visible";	
+}
+
+function closeJorgen(){
+	document.getElementById("jorgeninfo").style.visibility="collapse";
+}
+
