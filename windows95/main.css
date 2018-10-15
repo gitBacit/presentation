@@ -4,7 +4,6 @@
 
 }
 
-
 body{
 	background-color: #2A363B;
 	margin: 0;
@@ -12,7 +11,6 @@ body{
 	font-family: ModernSans-Light;
 	z-index: 2;
 }
-
 
 h3{
 	text-align: center;
@@ -329,8 +327,8 @@ h2{
 
 #aboutus{
 	position: absolute;
-	width: 70%;
-	height: 80%;
+	width: 100%;
+	height: 100%;
 	left: 5%;
 	top: 0%;
 	visibility: collapse;
