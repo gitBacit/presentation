@@ -1,8 +1,8 @@
 @font-face {
-   font-family: pixelarial;
-   src: url(pixelarial.TTF);
-   font-family: ModernSans-Light;
-    src: url(ModernSans-Light.otf);
+  font-family: ModernSans-Light;
+  src: url(ModernSans-Light.otf);
+
+
 }
 
 
@@ -10,7 +10,7 @@ body{
 	background-color: #2A363B;
 	margin: 0;
 	padding: 0;
-	font-family: pixelarial;
+	font-family: ModernSans-Light;
 	z-index: 2;
 }
 
@@ -263,33 +263,33 @@ h2{
 
 #kryss{
 	position: absolute;
-	width: 16px;
-	height: 14px;
-	right: 62px;
-	top: 5px;
+	width: 2%;
+	height: 3%;
+	right: 5%;
+	top: 4%;
 }
 
 #kryss1{
 	position: absolute;
 	width: 2%;
 	height: 3%;
-	right: 3%;
+	right: 5%;
 	top: 4%;
 }
 
 #kryss2{
 	position: absolute;
-	width: 12px;
-	height: 11px;
-	right: 24px;
-	top: 19px;
+	width: 2%;
+	height: 3%;
+	right: 5%;
+	top: 4%;
 }
 
 #kryss3{
 	position: absolute;
 	width: 2%;
 	height: 3%;
-	right: 3%;
+	right: 5%;
 	top: 4%;
 }
 
@@ -316,10 +316,10 @@ h2{
 
 #kryss4{
 	position: absolute;
-	width: 17px;
-	height: 16px;
-	right: 24px;
-	top: 19px;
+	width: 2%;
+	height: 3%;
+	right: 5%;
+	top: 4%;
 	cursor: pointer;
 }
 
@@ -346,90 +346,7 @@ h2{
 	left: 5%;
 }
 
-#users2{
-	position: absolute;
-	background-color: white;
-	width: 32%;
-	height: 90%;
-	top: 15%;
-	left: 4%;
-}
 
-#mathiasbilde{
-	position: absolute;
-	width: 80px;
-	height: 100px;
-	left: 10px;
-	top: 10px;
-}
-
-#users3{
-	position: absolute;
-	background-color: white;
-	width: 30%;
-	height: 90%;
-	top: 15%;
-	left: 20%;
-}
-
-#torbilde{
-	position: absolute;
-	width: 50px;
-	height: 20px;
-	left: 50px;
-	top: 20px;
-}
-
-#users4{
-	position: absolute;
-	background-color: white;
-	width: 30%;
-	height: 90%;
-	top: 15%;
-	left: 36%;
-}
-
-#bragebilde{
-	position: absolute;
-	width: 50px;
-	height: 20px;
-	left: 50px;
-	top: 20px;
-}
-
-#users5{
-	position: absolute;
-	background-color: white;
-	width: 30%;
-	height: 90%;
-	top: 15%;
-	left: 52%;
-}
-
-#jonasbilde{
-	position: absolute;
-	width: 50px;
-	height: 20px;
-	left: 50px;
-	top: 20px;
-}
-
-#users6{
-	position: absolute;
-	background-color: white;
-	width: 25%;
-	height: 90%;
-	top: 15%;
-	left: 68%;
-}
-
-#jorgenbilde{
-	position: absolute;
-	width: 50px;
-	height: 20px;
-	left: 50px;
-	top: 20px;
-}
 #load{
 	position: absolute;
 	width: 100%;
@@ -547,7 +464,7 @@ text-align: center;
 	  left: 15px;
 	  top: 645px;
   }
-  
+
   #gitPic{
 	width: 110%;
 	height: 90%;
@@ -559,8 +476,8 @@ text-align: center;
   	transform: scale(1.3);
   }
 
- #loginknapp{
 
+  #loginknapp{
   	position: absolute;
   	cursor: pointer;
   	background-color: #51834E;
@@ -581,9 +498,79 @@ text-align: center;
   	opacity: 0.8;
   }
 
+
   #loginknapp:active {
   	opacity: 0.8;
-
   	box-shadow: 0 5px #666;
- 	transform: translateY(4px);
+ 	  transform: translateY(4px);
   }
+
+  #loginknapp:active{
+  	transform: translateY(3px);
+  	box-shadow: 0 2px #666;
+  }
+
+  #cv{
+  	position: absolute;
+  	width: 70%;
+  	height: 100%;
+  	left: 30%;
+  }
+
+  #profilenametag{
+  	position: absolute;
+  	width: 30%;
+  	height: 30%;
+  	left: 0%;
+  	bottom: 0%;
+  	font-size: 34px;
+  	text-align: center;
+  }
+
+
+  #mathiasprofilbilde:hover, #torprofilbilde:hover, #brageprofilbilde:hover, #jonasprofilbilde:hover, #jorgenprofilbilde:hover{
+  	opacity: 0.9;
+  	cursor: pointer;
+  }
+
+  #mathiasbilde:hover, #torbilde:hover, #bragebilde:hover, #jonasbilde:hover, #jorgenbilde:hover{
+  	opacity: 0.8;
+  	cursor: pointer;
+  }
+
+
+ .userinf{
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    top: 10%;
+    left: 5%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(auto, auto);
+    grid-column-gap: 12px;
+}
+
+
+.userPic{
+    width: 150px;
+    height: 190px;
+}
+
+.profilepic{
+	position: absolute;
+  	height: 70%;
+  	width: 30%;
+}
+
+.profileinfo{
+	position: absolute;
+ 	background-color: white;
+ 	width: 100%;
+ 	height: 100%;
+ 	left: 0%;
+ 	top: 0%;
+ 	visibility: collapse;
+}
+
