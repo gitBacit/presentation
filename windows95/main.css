@@ -1,6 +1,7 @@
 @font-face {
-   font-family: pixelarial;
-   src: url(pixelarial.TTF);
+  font-family: ModernSans-Light;
+  src: url(ModernSans-Light.otf);
+
 }
 
 
@@ -8,7 +9,7 @@ body{
 	background-color: #2A363B;
 	margin: 0;
 	padding: 0;
-	font-family: pixelarial;
+	font-family: ModernSans-Light;
 	z-index: 2;
 }
 
