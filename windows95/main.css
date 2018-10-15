@@ -253,33 +253,33 @@ h3:hover{
 
 #kryss{
 	position: absolute;
-	width: 16px;
-	height: 14px;
-	right: 62px;
-	top: 5px;
+	width: 2%;
+	height: 3%;
+	right: 5%;
+	top: 4%;
 }
 
 #kryss1{
 	position: absolute;
 	width: 2%;
 	height: 3%;
-	right: 3%;
+	right: 5%;
 	top: 4%;
 }
 
 #kryss2{
 	position: absolute;
-	width: 12px;
-	height: 11px;
-	right: 24px;
-	top: 19px;
+	width: 2%;
+	height: 3%;
+	right: 5%;
+	top: 4%;
 }
 
 #kryss3{
 	position: absolute;
 	width: 2%;
 	height: 3%;
-	right: 3%;
+	right: 5%;
 	top: 4%;
 }
 
@@ -306,10 +306,10 @@ h3:hover{
 
 #kryss4{
 	position: absolute;
-	width: 17px;
-	height: 16px;
-	right: 24px;
-	top: 19px;
+	width: 2%;
+	height: 3%;
+	right: 5%;
+	top: 4%;
 	cursor: pointer;
 }
 
