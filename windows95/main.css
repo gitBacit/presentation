@@ -1,6 +1,7 @@
 @font-face {
-   font-family: pixelarial;
-   src: url(pixelarial.TTF);
+  font-family: ModernSans-Light;
+  src: url(ModernSans-Light.otf);
+
 }
 
 
@@ -8,7 +9,7 @@ body{
 	background-color: #2A363B;
 	margin: 0;
 	padding: 0;
-	font-family: pixelarial;
+	font-family: ModernSans-Light;
 	z-index: 2;
 }
 
@@ -458,7 +459,7 @@ h2{
 	  left: 15px;
 	  top: 645px;
   }
-  
+
   #gitPic{
 	width: 110%;
 	height: 90%;
@@ -506,8 +507,8 @@ h2{
   	font-size: 34px;
   	text-align: center;
   }
- 
-  
+
+
   #mathiasprofilbilde:hover, #torprofilbilde:hover, #brageprofilbilde:hover, #jonasprofilbilde:hover, #jorgenprofilbilde:hover{
   	opacity: 0.9;
   	cursor: pointer;
@@ -553,4 +554,3 @@ h2{
  	top: 0%;
  	visibility: collapse;
 }
-
