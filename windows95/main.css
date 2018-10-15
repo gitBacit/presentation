@@ -2,7 +2,6 @@
   font-family: ModernSans-Light;
   src: url(ModernSans-Light.otf);
 
-
 }
 
 
@@ -14,9 +13,9 @@ body{
 	z-index: 2;
 }
 
-h3:hover{
-	opacity: 0.5;
-	cursor: pointer;
+
+h3{
+	text-align: center;
 }
 
 
@@ -203,7 +202,7 @@ h2{
 #usersinside{
 	position: absolute;
 	width: 70%;
-	height: 80%;
+	height: 90%;
 	left: 5%;
 	top: 0%;
 	visibility: collapse;
@@ -514,16 +513,18 @@ text-align: center;
   	position: absolute;
   	width: 70%;
   	height: 100%;
-  	left: 30%;
+  	left: 15%;
+  	padding: 10px;
+  	background-color: #f1f1f1;
   }
 
   #profilenametag{
   	position: absolute;
+  	background-color: white;
   	width: 30%;
-  	height: 30%;
+  	height: 10%;
   	left: 0%;
-  	bottom: 0%;
-  	font-size: 34px;
+  	bottom: 25%;
   	text-align: center;
   }
 
@@ -574,4 +575,31 @@ text-align: center;
  	visibility: collapse;
 }
 
+
+.goback{
+	position: absolute;
+	width: 30%;
+	height: 20%;
+	background-color: white;
+	bottom: 0%;
+}
+
+.gobackpic{
+	position: absolute;
+	transform: scale(1.4);
+	left: 35%;
+	top: 10%;
+}
+
+#ytreboks{
+	position: absolute;
+	background-color: white;
+  	width: 70%;
+  	height: 100%;
+  	left: 30%;
+}
+
+.punktliste{
+	text-align: center;
+}
 
