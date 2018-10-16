@@ -452,6 +452,19 @@ text-align: center;
 	text-align: center;
 }
 
+<<<<<<< HEAD:windows95/main.css
+.gitPic{
+	position: left;
+  	height: 50px;
+	width: 50px;
+	
+}
+.linkedInPic{
+	position: right;
+  	height: 50px;
+  	width: 50px;
+}
+=======
 .iconGrid{
   	position: absolute;
     width: 4%;
@@ -487,18 +500,4 @@ text-align: center;
 	text-align: center;
 }
 
-.gitProfile{
-	position: left;
-  	height: 60px;
-	width: 60px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-.linkedInProfile{
-	position: right;
-  	height: 60px;
-	width: 60px;
-	padding-left: 10px;
-	padding-right: 10px;
-
-}
+>>>>>>> master:gitBacitOS/main.css
