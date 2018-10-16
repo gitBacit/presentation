@@ -6,6 +6,10 @@
 
 body{
 	background-color: #2A363B;
+	background-image: url("img/gitbacitlogoplainsvg.svg"); 
+	background-repeat: no-repeat;
+	background-size: 400px 400px;
+	background-position: 50% -40%;
 	margin: 0;
 	padding: 0;
 	font-family: ModernSans-Light;
@@ -406,6 +410,7 @@ text-align: center;
   }
 
   #loginknapp:hover { 
+
   	opacity: 0.8;
   }
 
@@ -540,3 +545,4 @@ text-align: center;
 	padding-left: 8px;
 	transform: scale(1.35);
 }
+
