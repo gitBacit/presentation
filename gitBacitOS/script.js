@@ -19,7 +19,7 @@
 
 
 
-	document.getElementById("users").addEventListener("click", openUsers);
+	document.getElementById("usergrid").addEventListener("click", openUsers);
 	document.getElementById("kryss3").addEventListener("click", closeUsers);
 
 	function openUsers(){
@@ -35,7 +35,7 @@
 		closeJorgen();
 	}
 
-  	document.getElementById("about").addEventListener("click", openAbout);
+  	document.getElementById("aboutgrid").addEventListener("click", openAbout);
   	document.getElementById("kryss4").addEventListener("click", closeAbout);
 
   	function openAbout(){
@@ -74,9 +74,9 @@
 	move();
 	
 
-	document.getElementById("contactus").addEventListener("click", sendMail)
+	document.getElementById("contactgrid").addEventListener("click", sendMail)
 
-	document.getElementById("git").addEventListener("click", openGit);
+	document.getElementById("githubgrid").addEventListener("click", openGit);
 
 
 

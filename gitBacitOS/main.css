@@ -69,49 +69,6 @@ h2{
 	background-color: rgb(29, 29, 29);
 	border-bottom: 2px outset rgb(71, 71, 71);
 }
-/*
-#footer{
-	position: absolute;
-	width: 100%;
-	height: 40px;
-	bottom: 0%;
-	left: 0%;
-	background-color: #C0C0C0;
-	border-top: 2px outset white;
-}
-*/
-
-#documents{
-	position: absolute;
-	width: 50px;
-	height: 60px;
-	left: 15px;
-	top: 245px;
-}
-
-#comp{
-	position: absolute;
-	width: 50px;
-	height: 60px;
-	left: 15px;
-	top: 55px;
-}
-
-#users{
-	position: absolute;
-	width: 50px;
-	height: 60px;
-	left: 15px;
-	top: 155px;
-}
-
-#trash{
-	position: absolute;
-	width: 50px;
-	height: 60px;
-	left: 15px;
-	top: 445px;
-}
 
 #documentslogo{
 	width: 100%;
@@ -140,26 +97,16 @@ h2{
 	transform: scale(1.1);
 }
 
-#trash:hover, #documents:hover, #comp:hover, #kryss:hover, #users:hover , #about:hover, #git:hover, #contactus:hover{
+#usergrid:hover, #aboutgrid:hover, #contactgrid:hover, #githubgrid:hover{
 	cursor: pointer;
-}
-
-#trash:active, #documents:active, #comp:active{
-	opacity: 0.8;
 }
 
 #start:active{
 	opacity: 0.3;
 }
 
-#filestag, #comptag, #trashtag, #userstag, #abouttag, #contactustag, #githubtag{
-	position: absolute;
-	height: 10px;
-	width: 100%;
+#userstag, #abouttag, #contactustag, #githubtag{
 	color: white;
-	font-size: 10px;
-	bottom: -6px;
-	left: 0px;
 	text-align: center;
 }
 
@@ -252,6 +199,12 @@ h2{
 	height: 100%;
 }
 
+#gitPic{
+	width: 42px;
+	height: 42px;
+	padding-left: 5px;
+}
+
 #namelist{
 	position: absolute;
 	background-color: white;
@@ -296,22 +249,6 @@ h2{
 
 #kryss:hover, #kryss1:hover, #kryss2:hover, #kryss3:hover{
 	cursor: pointer;
-}
-
-
-#about{
-	position: absolute;
-	width: 50px;
-	height: 60px;
-	left: 15px;
-	top: 345px;
-}
-
-#aboutpic{
-	width: 100%;
-	height: 90%;
-	position: absolute;
-	transform: scale(1.0);
 }
 
 
@@ -442,13 +379,6 @@ text-align: center;
 	color: White;
 }
 
-#contactus{
-  position:absolute;
-  width: 50px;
-	height: 60px;
-	left: 15px;
-	top: 545px;
-}
 
 #contactuspic{
   width: 100%;
@@ -456,21 +386,6 @@ text-align: center;
   transform: scale(1.13);
 	position: absolute;
 }
-
-#git{
-	position:absolute;
-	width: 50px;
-	  height: 60px;
-	  left: 15px;
-	  top: 645px;
-  }
-
-  #gitPic{
-	width: 110%;
-	height: 90%;
-	position: absolute;
-	transform: scale(1.14);
-  }
 
   #nettleserikon{
   	transform: scale(1.3);
@@ -604,3 +519,30 @@ text-align: center;
 .punktliste{
 	text-align: center;
 }
+
+.iconGrid{
+  	position: absolute;
+    width: 4%;
+    height: 400px;
+    top: 9%;
+    left: 0.5%;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr); 
+    grid-row-gap.: 10px;
+}
+
+.iconsInGrid{
+	width: 100%;
+	height: 100%;
+}
+
+#userPic{
+	padding-left: 2px;
+	transform: scale(1.1);
+}
+
+#mailPic{
+	padding-left: 8px;
+	transform: scale(1.35);
+}
+
