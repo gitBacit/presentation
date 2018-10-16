@@ -35,7 +35,7 @@
 	document.getElementById("documents").addEventListener("dblclick", openDocument);
 	document.getElementById("do").addEventListener("click", openDocument);
 	document.getElementById("kryss2").addEventListener("click", closeDocument);
-	
+
 	function openDocument(){
 		document.getElementById("documentsinside").style.visibility="visible";
 	}
@@ -94,24 +94,24 @@
 
 
 	function move() {
-  		var elem = document.getElementById("bar");   
+  		var elem = document.getElementById("bar");
   		var width = 0;
   		var id = setInterval(frame, 0);
   			function frame() {
     			if (width >= 100) {
       				clearInterval(id);
-      				document.getElementById("load").style.visibility="collapse";	
+      				document.getElementById("load").style.visibility="collapse";
     		} else {
-      			width = width + 0.2; 
-     			elem.style.width = width + '%'; 
+      			width = width + 0.2;
+     			elem.style.width = width + '%';
      			var num = Math.round(width * 100)/100;
      			elem.innerHTML = num  + '%';
     		}
   							}
 					}
-	
+
 	move();
-	
+
 
 	document.getElementById("contactus").addEventListener("dblclick", sendMail)
 
@@ -134,7 +134,7 @@ document.getElementById("mathiasbilde").addEventListener("click", openMathias);
 document.getElementById("mathiasprofilbilde").addEventListener("click", closeMathias);
 
 function openMathias(){
-	document.getElementById("mathiasinfo").style.visibility="visible";	
+	document.getElementById("mathiasinfo").style.visibility="visible";
 }
 
 function closeMathias(){
@@ -147,7 +147,7 @@ document.getElementById("torbilde").addEventListener("click", openTor);
 document.getElementById("torprofilbilde").addEventListener("click", closeTor);
 
 function openTor(){
-	document.getElementById("torinfo").style.visibility="visible";	
+	document.getElementById("torinfo").style.visibility="visible";
 }
 
 function closeTor(){
@@ -159,7 +159,7 @@ document.getElementById("bragebilde").addEventListener("click", openBrage);
 document.getElementById("brageprofilbilde").addEventListener("click", closeBrage);
 
 function openBrage(){
-	document.getElementById("brageinfo").style.visibility="visible";	
+	document.getElementById("brageinfo").style.visibility="visible";
 }
 
 function closeBrage(){
@@ -171,7 +171,7 @@ document.getElementById("jonasbilde").addEventListener("click", openJonas);
 document.getElementById("jonasprofilbilde").addEventListener("click", closeJonas);
 
 function openJonas(){
-	document.getElementById("jonasinfo").style.visibility="visible";	
+	document.getElementById("jonasinfo").style.visibility="visible";
 }
 
 function closeJonas(){
@@ -182,10 +182,9 @@ document.getElementById("jorgenbilde").addEventListener("click", openJorgen);
 document.getElementById("jorgenprofilbilde").addEventListener("click", closeJorgen);
 
 function openJorgen(){
-	document.getElementById("jorgeninfo").style.visibility="visible";	
+	document.getElementById("jorgeninfo").style.visibility="visible";
 }
 
 function closeJorgen(){
 	document.getElementById("jorgeninfo").style.visibility="collapse";
 }
-
