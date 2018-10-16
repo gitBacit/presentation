@@ -18,46 +18,8 @@
 	startTime();
 
 
-/*
-	document.getElementById("volumebutton").addEventListener("click", openVolume);
-	document.getElementById("kryss").addEventListener("click", closeVolume);
 
-	function openVolume(){
-		document.getElementById("panel").style.visibility="visible";
-	}
-
-	function closeVolume(){
-		document.getElementById("panel").style.visibility="collapse";
-	}
-
-*/
-
-	document.getElementById("documents").addEventListener("dblclick", openDocument);
-	document.getElementById("do").addEventListener("click", openDocument);
-	document.getElementById("kryss2").addEventListener("click", closeDocument);
-	
-	function openDocument(){
-		document.getElementById("documentsinside").style.visibility="visible";
-	}
-
-	function closeDocument(){
-		document.getElementById("documentsinside").style.visibility="collapse";
-	}
-
-
-	document.getElementById("comp").addEventListener("dblclick", openComp);
-	document.getElementById("kryss1").addEventListener("click", closeComp);
-
-	function openComp(){
-		document.getElementById("compinside").style.visibility="visible";
-	}
-
-	function closeComp(){
-		document.getElementById("compinside").style.visibility="collapse";
-	}
-
-	document.getElementById("users").addEventListener("dblclick", openUsers);
-	document.getElementById("us").addEventListener("click", openUsers);
+	document.getElementById("usergrid").addEventListener("click", openUsers);
 	document.getElementById("kryss3").addEventListener("click", closeUsers);
 
 	function openUsers(){
@@ -73,8 +35,7 @@
 		closeJorgen();
 	}
 
-  	document.getElementById("about").addEventListener("dblclick", openAbout);
-  	document.getElementById("ab").addEventListener("click", openAbout);
+  	document.getElementById("aboutgrid").addEventListener("click", openAbout);
   	document.getElementById("kryss4").addEventListener("click", closeAbout);
 
   	function openAbout(){
@@ -113,9 +74,9 @@
 	move();
 	
 
-	document.getElementById("contactus").addEventListener("dblclick", sendMail)
+	document.getElementById("contactgrid").addEventListener("click", sendMail)
 
-	document.getElementById("git").addEventListener("dblclick", openGit);
+	document.getElementById("githubgrid").addEventListener("click", openGit);
 
 
 
