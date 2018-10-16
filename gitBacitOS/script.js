@@ -24,6 +24,7 @@
 
 	function openUsers(){
 		document.getElementById("usersinside").style.visibility="visible";
+		usersFirst();
 	}
 
 	function closeUsers(){
@@ -40,6 +41,7 @@
 
   	function openAbout(){
 		document.getElementById("aboutus").style.visibility="visible";
+		aboutFirst();
 	}
 
   	function closeAbout(){
@@ -149,4 +151,18 @@ function openJorgen(){
 function closeJorgen(){
 	document.getElementById("jorgeninfo").style.visibility="collapse";
 }
+
+function usersFirst(){
+	document.getElementById("usersinside").style.zIndex="1";
+	document.getElementById("aboutus").style.zIndex="0";
+}
+
+function aboutFirst(){
+	document.getElementById("aboutus").style.zIndex="1";
+	document.getElementById("usersinside").style.zIndex="0";
+}
+
+
+
+
 
