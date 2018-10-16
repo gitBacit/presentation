@@ -6,10 +6,20 @@
 
 body{
 	background-color: #2A363B;
+	background-image: url("img/gitbacitlogoplainsvg.svg"); 
+	background-repeat: no-repeat;
+	background-size: 400px 400px;
+	background-position: 50% -40%;
 	margin: 0;
 	padding: 0;
 	font-family: ModernSans-Light;
 	z-index: 2;
+	/*
+	Dette fikser scrolle problemet, men det er enda noe trøbbel med størrelsen på ikoner.
+	height: 100%;
+    overflow: hidden;
+	*/
+
 }
 
 h3{
