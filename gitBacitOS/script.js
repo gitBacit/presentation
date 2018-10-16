@@ -18,46 +18,8 @@
 	startTime();
 
 
-/*
-	document.getElementById("volumebutton").addEventListener("click", openVolume);
-	document.getElementById("kryss").addEventListener("click", closeVolume);
-
-	function openVolume(){
-		document.getElementById("panel").style.visibility="visible";
-	}
-
-	function closeVolume(){
-		document.getElementById("panel").style.visibility="collapse";
-	}
-
-*/
-
-	document.getElementById("documents").addEventListener("click", openDocument);
-	document.getElementById("do").addEventListener("click", openDocument);
-	document.getElementById("kryss2").addEventListener("click", closeDocument);
-	
-	function openDocument(){
-		document.getElementById("documentsinside").style.visibility="visible";
-	}
-
-	function closeDocument(){
-		document.getElementById("documentsinside").style.visibility="collapse";
-	}
-
-
-	document.getElementById("comp").addEventListener("click", openComp);
-	document.getElementById("kryss1").addEventListener("click", closeComp);
-
-	function openComp(){
-		document.getElementById("compinside").style.visibility="visible";
-	}
-
-	function closeComp(){
-		document.getElementById("compinside").style.visibility="collapse";
-	}
 
 	document.getElementById("users").addEventListener("click", openUsers);
-	document.getElementById("us").addEventListener("click", openUsers);
 	document.getElementById("kryss3").addEventListener("click", closeUsers);
 
 	function openUsers(){
@@ -74,7 +36,6 @@
 	}
 
   	document.getElementById("about").addEventListener("click", openAbout);
-  	document.getElementById("ab").addEventListener("click", openAbout);
   	document.getElementById("kryss4").addEventListener("click", closeAbout);
 
   	function openAbout(){
