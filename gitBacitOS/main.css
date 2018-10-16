@@ -70,33 +70,6 @@ h2{
 	border-bottom: 2px outset rgb(71, 71, 71);
 }
 
-#documentslogo{
-	width: 100%;
-	height: 90%;
-	position: absolute;
-	transform: scale(1.13);
-}
-
-#userslogo{
-	width: 100%;
-	height: 90%;
-	position: absolute;
-	transform: scale(1.15);
-}
-
-#complogo{
-	width: 100%;
-	height: 90%;
-	position: absolute;
-}
-
-#trashlogo{
-	width: 100%;
-	height: 90%;
-	position: absolute;
-	transform: scale(1.1);
-}
-
 #usergrid:hover, #aboutgrid:hover, #contactgrid:hover, #githubgrid:hover{
 	cursor: pointer;
 }
@@ -110,44 +83,6 @@ h2{
 	text-align: center;
 }
 
-#panel{
-	position: absolute;
-	width: 40%;
-	height: 30%;
-	left: 30%;
-	top: 20%;
-	visibility: collapse;
-}
-
-
-#volumebutton{
-	position: absolute;
-	width: 20px;
-	height: 20px;
-	top: 2px;
-	left: 4%;
-	cursor: pointer;
-}
-
-
-#compinside{
-	position: absolute;
-	width: 70%;
-	height: 80%;
-	left: 5%;
-	top: 0%;
-	visibility: collapse;
-}
-
-#documentsinside{
-	position: absolute;
-	width: 70%;
-	height: 80%;
-	left: 5%;
-	top: 0%;
-	visibility: collapse;
-}
-
 #usersinside{
 	position: absolute;
 	width: 70%;
@@ -155,31 +90,15 @@ h2{
 	left: 5%;
 	top: 0%;
 	visibility: collapse;
+	z-index: 0;
 }
 
-#myComputer{
-	position: absolute;
-	width: 90%;
-	height: 90%;
-	left: 5%;
-	top: 10%;
-	background-color: white;
-}
 
 #userspic{
 	position: absolute;
 	width: 100%;
 }
 
-#documentspic{
-	position: absolute;
-	width: 100%;
-}
-
-#comppic{
-	position: absolute;
-	width: 100%;
-}
 
 #bluescreen{
 	position: absolute;
@@ -261,7 +180,7 @@ h2{
 	cursor: pointer;
 }
 
-#documentspic2{
+#aboutuspic{
 	position: absolute;
 	width: 100%;
 }
@@ -273,6 +192,7 @@ h2{
 	left: 5%;
 	top: 0%;
 	visibility: collapse;
+	z-index: 0;
 }
 
 #aboutus2{
