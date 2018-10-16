@@ -154,7 +154,7 @@ h2{
 	height: 90%;
 	left: 5%;
 	top: 0%;
-	visibility: visible;
+	visibility: collapse;
 }
 
 #myComputer{
