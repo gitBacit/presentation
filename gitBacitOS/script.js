@@ -32,7 +32,7 @@
 
 */
 
-	document.getElementById("documents").addEventListener("dblclick", openDocument);
+	document.getElementById("documents").addEventListener("click", openDocument);
 	document.getElementById("do").addEventListener("click", openDocument);
 	document.getElementById("kryss2").addEventListener("click", closeDocument);
 	
@@ -45,7 +45,7 @@
 	}
 
 
-	document.getElementById("comp").addEventListener("dblclick", openComp);
+	document.getElementById("comp").addEventListener("click", openComp);
 	document.getElementById("kryss1").addEventListener("click", closeComp);
 
 	function openComp(){
@@ -56,7 +56,7 @@
 		document.getElementById("compinside").style.visibility="collapse";
 	}
 
-	document.getElementById("users").addEventListener("dblclick", openUsers);
+	document.getElementById("users").addEventListener("click", openUsers);
 	document.getElementById("us").addEventListener("click", openUsers);
 	document.getElementById("kryss3").addEventListener("click", closeUsers);
 
@@ -73,7 +73,7 @@
 		closeJorgen();
 	}
 
-  	document.getElementById("about").addEventListener("dblclick", openAbout);
+  	document.getElementById("about").addEventListener("click", openAbout);
   	document.getElementById("ab").addEventListener("click", openAbout);
   	document.getElementById("kryss4").addEventListener("click", closeAbout);
 
@@ -113,9 +113,9 @@
 	move();
 	
 
-	document.getElementById("contactus").addEventListener("dblclick", sendMail)
+	document.getElementById("contactus").addEventListener("click", sendMail)
 
-	document.getElementById("git").addEventListener("dblclick", openGit);
+	document.getElementById("git").addEventListener("click", openGit);
 
 
 
