@@ -6,7 +6,7 @@
 
 body{
 	background-color: #2A363B;
-	background-image: url("img/gitbacitlogoplainsvg.svg"); 
+	background-image: url("img/gitbacitlogoplainsvg.svg");
 	background-repeat: no-repeat;
 	background-size: 400px 400px;
 	background-position: 50% -40%;
@@ -290,11 +290,10 @@ text-align: center;
 
   #profilenametag{
   	position: absolute;
-  	background-color: white;
   	width: 30%;
-  	height: 10%;
+  	height: 40%;
   	left: 0%;
-  	bottom: 25%;
+  	bottom: -8%;
   	text-align: center;
   }
 
@@ -347,8 +346,8 @@ text-align: center;
 .gobackpic{
 	position: absolute;
 	transform: scale(1.4);
-	right: 83%;
-	bottom: 5%;
+	right: 43%;
+	bottom: 10%;
 }
 
 #ytreboks{
@@ -370,7 +369,7 @@ text-align: center;
     top: 9%;
     left: 0.5%;
     display: grid;
-    grid-template-rows: repeat(5, 1fr); 
+    grid-template-rows: repeat(5, 1fr);
     grid-row-gap: 10px;
 }
 
@@ -461,4 +460,3 @@ text-align: center;
 #usersinsidediv{
 
 }
-
