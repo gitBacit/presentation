@@ -208,6 +208,7 @@ h2{
 }
 
 #usersinside{
+	z-index: 64;
 	position: absolute;
 	width: 70%;
 	height: 90%;
@@ -336,6 +337,7 @@ h2{
 }
 
 #aboutus{
+	z-index: auto;
 	position: absolute;
 	width: 70%;
 	height: 80%;
