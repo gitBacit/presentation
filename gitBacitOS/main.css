@@ -84,7 +84,6 @@ h2{
 }
 
 #usersinside{
-	z-index: 64;
 	position: absolute;
 	width: 70%;
 	height: 90%;
@@ -192,17 +191,16 @@ h2{
 	width: 70%;
 	height: 80%;
 	left: 5%;
-	top: 0%;
-	visibility: collapse;
+	top: 4%;
+	visibility: visible;
 	z-index: 0;
 }
 
 #aboutus2{
 	position: absolute;
-	background-color: white;
 	width: 90%;
-	height: 90%;
-	top: 15%;
+	height: 80%;
+	top: 7%;
 	left: 5%;
 }
 
@@ -327,7 +325,7 @@ text-align: center;
 
 .userPic{
     width: 150px;
-    height: 210px;
+    height: 220px;
 }
 
 .profilepic{
@@ -414,4 +412,19 @@ text-align: center;
 	padding-left: 10px;
 	padding-right: 10px;
 
+}
+
+#aboutus3{
+	position: absolute;
+	width: 90%;
+	height: 40%;
+	top: 85%;
+	left: 5%;
+}
+
+#gruppebilde{
+	position: absolute;
+	width: 50%;
+	bottom: 10%;
+	left: 25%;
 }
