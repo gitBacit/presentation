@@ -428,3 +428,29 @@ text-align: center;
 	bottom: 10%;
 	left: 25%;
 }
+
+#gruppeinfo{
+	visibility: visible;
+}
+
+#aboutusalt{
+	position: absolute;
+	height: 90%;
+	width: 90%;
+	left: 5%;
+	top: 15%;
+	visibility: collapse;
+}
+
+#gruppebilde2{
+	width: 100%;
+}
+
+#gruppebilde2:hover, #gruppebilde:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+#bildetekst{
+	position: absolute;
+}

@@ -162,6 +162,18 @@ function aboutFirst(){
 	document.getElementById("usersinside").style.zIndex="0";
 }
 
+document.getElementById("gruppebilde").addEventListener("click", openGroup);
+document.getElementById("gruppebilde2").addEventListener("click", closeGroup);
+
+function openGroup(){
+	document.getElementById("aboutusalt").style.visibility="visible";
+	document.getElementById("gruppeinfo").style.visibility="collapse";
+}
+
+function closeGroup(){
+	document.getElementById("gruppeinfo").style.visibility="visible";
+	document.getElementById("aboutusalt").style.visibility="collapse";
+}
 
 
 
