@@ -432,6 +432,7 @@ text-align: center;
 
 #gruppeinfo{
 	visibility: collapse;
+	z-index: 2;
 }
 
 #aboutusalt{
@@ -441,6 +442,7 @@ text-align: center;
 	left: 5%;
 	top: 15%;
 	visibility: collapse;
+	z-index: 2;
 }
 
 #gruppebilde2{
