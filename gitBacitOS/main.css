@@ -405,6 +405,7 @@ text-align: center;
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
 .linkedInProfile{
 	position: right;
   	height: 60px;
@@ -430,7 +431,7 @@ text-align: center;
 }
 
 #gruppeinfo{
-	visibility: visible;
+	visibility: collapse;
 }
 
 #aboutusalt{

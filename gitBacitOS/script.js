@@ -41,11 +41,14 @@
 
   	function openAbout(){
 		document.getElementById("aboutus").style.visibility="visible";
+		document.getElementById("gruppeinfo").style.visibility="visible";
 		aboutFirst();
 	}
 
   	function closeAbout(){
 		document.getElementById("aboutus").style.visibility="collapse";
+		document.getElementById("gruppeinfo").style.visibility="collapse";
+		document.getElementById("aboutusalt").style.visibility="collapse";
 	}
 
 
