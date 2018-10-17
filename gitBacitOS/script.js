@@ -24,16 +24,18 @@
 
 	function openUsers(){
 		document.getElementById("usersinside").style.visibility="visible";
+		openusersdiv();
 		usersFirst();
 	}
 
 	function closeUsers(){
-		document.getElementById("usersinside").style.visibility="collapse";
 		closeMathias();
 		closeTor();
 		closeBrage();
 		closeJonas();
 		closeJorgen();
+		closeusersdiv();
+		document.getElementById("usersinside").style.visibility="collapse";
 	}
 
   	document.getElementById("aboutgrid").addEventListener("click", openAbout);
@@ -84,8 +86,6 @@
 	document.getElementById("githubgrid").addEventListener("click", openGit);
 
 
-
-
 function openGit() {
 	var url = "https://github.com/gitBacit/presentation";
 	var win = window.open(url, '_blank');
@@ -101,10 +101,12 @@ document.getElementById("mathiasprofilbilde").addEventListener("click", closeMat
 
 function openMathias(){
 	document.getElementById("mathiasinfo").style.visibility="visible";	
+	closeusersdiv();
 }
 
 function closeMathias(){
 	document.getElementById("mathiasinfo").style.visibility="collapse";
+	openusersdiv();
 }
 
 
@@ -114,10 +116,12 @@ document.getElementById("torprofilbilde").addEventListener("click", closeTor);
 
 function openTor(){
 	document.getElementById("torinfo").style.visibility="visible";	
+	closeusersdiv();
 }
 
 function closeTor(){
 	document.getElementById("torinfo").style.visibility="collapse";
+	openusersdiv();
 }
 
 
@@ -126,10 +130,12 @@ document.getElementById("brageprofilbilde").addEventListener("click", closeBrage
 
 function openBrage(){
 	document.getElementById("brageinfo").style.visibility="visible";	
+	closeusersdiv();
 }
 
 function closeBrage(){
 	document.getElementById("brageinfo").style.visibility="collapse";
+	openusersdiv();
 }
 
 
@@ -138,10 +144,12 @@ document.getElementById("jonasprofilbilde").addEventListener("click", closeJonas
 
 function openJonas(){
 	document.getElementById("jonasinfo").style.visibility="visible";	
+	closeusersdiv();
 }
 
 function closeJonas(){
 	document.getElementById("jonasinfo").style.visibility="collapse";
+	openusersdiv();
 }
 
 document.getElementById("jorgenbilde").addEventListener("click", openJorgen);
@@ -149,10 +157,12 @@ document.getElementById("jorgenprofilbilde").addEventListener("click", closeJorg
 
 function openJorgen(){
 	document.getElementById("jorgeninfo").style.visibility="visible";	
+	closeusersdiv();
 }
 
 function closeJorgen(){
 	document.getElementById("jorgeninfo").style.visibility="collapse";
+	openusersdiv();
 }
 
 function usersFirst(){
@@ -178,6 +188,12 @@ function closeGroup(){
 	document.getElementById("aboutusalt").style.visibility="collapse";
 }
 
+function openusersdiv(){
+	document.getElementById("usersinsidediv").style.visibility="visible";
+}
 
+function closeusersdiv(){
+	document.getElementById("usersinsidediv").style.visibility="collapse";
+}
 
 
