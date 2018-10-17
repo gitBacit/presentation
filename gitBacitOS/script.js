@@ -28,11 +28,6 @@
 		usersFirst();
 	}
 
-	var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-if (isMobile) {
-  openBlue();
-}
-
 
 	function closeUsers(){
 		closeMathias();
