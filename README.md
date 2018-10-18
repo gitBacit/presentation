@@ -1,2 +1,1 @@
-# presentation
-## Some text
+# GitBacit presentasjonsside for RefreshIT 2018
