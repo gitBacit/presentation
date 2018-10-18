@@ -22,15 +22,14 @@
         <p><b> Velkommen til Gitbacit</b><br><br> Nettsiden er en presentasjon av vår bachelorgruppe. <br> Naviger deg gjennom siden som et operativsystem.  <br> For å komme til hovedinnholdet, klikk på "login".<br><br><b><p style="color:red">Siden er ikke optimalisert for mobil</p>Siden er ikke optimalisert for mobil</b> </p>
 </div>
 <script> 
-console.log(platform.os.family);
 let mobile = platform.os.family;
 
 if(mobile === "Android" ) {
-	alert("Du bruker en Android telefon, trykk ok for å gå til mobilversjon");
+	//alert("Vi ser du bruker en Android enhet, trykk ok for å gå til mobilversjon");
 	window.location = "mobile.html";
 }
 if(mobile === "iOS") {
-	alert("Du bruker en iPhone, trykk ok for å gå til mobilversjon");
+	//alert("Vi ser du bruker en iOS enhet, trykk ok for å gå til mobilversjon");
 	window.location = "mobile.html";
 }
 // if(mobile === "Ubuntu") {
