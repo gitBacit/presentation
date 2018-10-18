@@ -1,6 +1,7 @@
 <body>
     <head>
     <link rel="stylesheet" type="text/css" href="mobile.css">
+    <script type="text/javascript"src="platform.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
 </head>
@@ -8,12 +9,14 @@
         <div data-role="header">
             <img src="img/gitbacitlogoplainsvg.svg" height="60" width="60">
         </div>
+        
         <div data-role="footer">
             <h4>GitBacit mobilversjon</h4>
+            <div id="version">  </div>
             <p> Vennligst bruk PC for fullversjon av siden, dette er bare grunnleggende informasjonsside</p>
         </div>
     </div>
-    
+  
     <div data-role="page" id="page2">
         <div data-role="header">
             <h1>Gruppe og kontakt-informasjon</h1>
@@ -34,6 +37,13 @@
         gitbacit@gmail.com
         <br>   
     </div>
-    
+    <script>
+            (function(){
+                let mobile = platform.os.family
+        var mobileInfo = document.getElementById("version");
+        mobileInfo.innerHTML ="Du har kommet til mobilversjon siden du bruker en " + mobile + " enhet";
+            })();
+   
+        </script>
 
     </body>
